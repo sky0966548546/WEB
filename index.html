@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/x-icon" href="./img/logo/logo.png" />
+  <link rel="shortcut icon" href="./img/logo/logo.png" type="image/x-icon" />
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amaranth&display=swap" rel="stylesheet">
+  <!--Include Animate CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <!--Include Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <!--Include Materialize CSS-->
+  <link type="text/css" rel="stylesheet" href="./css/materialize.min.css">
+  <link type="text/css" rel="stylesheet" href="./css/index.css">
+  <title>oF個人網頁</title>
+</head>
+
+<body onload="kill();">
+
+  <!--Header Section-->
+  <header id="home" class="navbar-fixed">
+    <div class="slider fullscreen">
+      <ul class="slides">
+        <li>
+          <img src="./img/cover/cover1.jpg" alt="">
+          <div class="caption left-align grey-text text-lighten-5">
+            <h3>嗨！我叫邱繼維</h3>
+            <h5>吃素異類反抗軍</h5>
+            <h5>0966548546·
+              <a href="mailto:sky0932039612@gmail.com" style="color:white">sky0932039612@gmail.com</a></h5>
+          </div>
+        </li>
+        <li>
+          <img src="./img/cover/cover2.jpg" alt="">
+          <div class="caption center-align grey-text text-lighten-4">
+            <h3>我在天花板之上</h3>
+            <h5>笑著給你比個ya</h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!--Navbar-->
+    <nav>
+      <div class="container">
+        <a href="index.html" class="brand-logo">
+          <img src="./img/logo/logo2.png" alt="logo" class="responsive-img">
+        </a>
+        <a href="#" class="right sidenav-trigger show-on-medium-and-up" data-target="side-nav">
+          <i class="material-icons">menu</i>
+        </a>
+      </div>
+    </nav>
+    <!--Instruction Arrow-->
+    <a href="#about" id="arrow" class="animated bounce infinite slow"></a>
+  </header>
+
+  <!--Side Nav-->
+  <ul class="sidenav grey lighten-1" id="side-nav">
+    <li id="side-nav-logo">
+      <img src="./img/logo/logo.png" alt="logo">
+    </li>
+    <li><a class="sidenav-close grey-text text-darken-3 waves-effect" href="#home">Home</a></li>
+    <li><a class="sidenav-close grey-text text-darken-3 waves-effect" href="#about">About Me</a></li>
+    <li><a class="sidenav-close grey-text text-darken-3 waves-effect" href="#skill">Skills</a></li>
+    <li><a class="sidenav-close grey-text text-darken-3 waves-effect" href="#project">Project</a></li>
+    <li><a class="sidenav-close grey-text text-darken-3 waves-effect" href="./files">files</a></li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a class="subheader">Community link</a></li>
+    <div id="side-nav-icons-container">
+      <h5><a href="https://home.gamer.com.tw/homeindex.php?owner=evan9154" class="grey-text text-darken-3" target="_blank"><i
+            class="fas fa-dragon"></i></a>
+      </h5>
+      <h5><a href="https://github.com/sky0966548546" class="grey-text text-darken-3" target="_blank"><i
+            class="fab fa-github"></i></a>
+      </h5>
+      <h5><a href="https://www.instagram.com/weii_0504/" class="grey-text text-darken-3" target="_blank"><i
+            class="fab fa-instagram"></i></a></h5>
+    </div>
+  </ul>
+
+  <!--About Me Section-->
+  <section class="section grey lighten-5 section-about grey-text text-darken-2 scrollspy" id="about">
+    <div class="container center">
+      <h3>About Me</h3>
+      <h6 class="grey-text text-darken-1">
+        專門揍吃素的智障，雙手拿肯德基雞腿，憑著屬性克制捶爆低能吃素仔的雙刀劍士
+      </h6>
+      <div class="row center">
+        <!--Blog Post Be Placed Here-->
+      </div>
+    </div>
+  </section>
+
+  <!--Skills-->
+  <section class="section-skills parallax-container scrollspy" id="skill">
+    <div class="overlay">
+      <div class="carousel carousel-slider center">
+        <div class="carousel-item white-text valign-wrapper" href="#skill01" id="front-end-carousel-item">
+          <div class="container">
+            <h3>Skills</h3>
+            <div class="row">
+              <div class="carousel-logo col s2 z-depth-5 tooltip">
+                <img src="./img/skills/python.png" alt="Python Logo" class="responsive-img">
+                <span class="tooltip-text">Python</span>
+              </div>
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/java.png" alt="Java Logo" class="responsive-img">
+                <span class="tooltip-text">Java</span>
+              </div>
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/C++.png" alt="C++ Logo" class="responsive-img">
+                <span class="tooltip-text">C++</span>
+              </div>
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/C.png" alt="C Logo" class="responsive-img">
+                <span class="tooltip-text">C</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item white-text valign-wrapper" href="#skill02" id="front-end-carousel-item">
+          <div class="container">
+            <h3>Skills</h3>
+            <div class="row">
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/HTML.png" alt="HTML Logo" class="responsive-img">
+                <span class="tooltip-text">HTML5</span>
+              </div>
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/CSS.png" alt="css Logo" class="responsive-img">
+                <span class="tooltip-text">CSS</span>
+              </div>
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/JavaScript.png" alt="JavaScript Logo" class="responsive-img">
+                <span class="tooltip-text">JavaScript</span>
+              </div>
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/php.png" alt="PHP Logo" class="responsive-img">
+                <span class="tooltip-text">PHP</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Tools-->
+        <div class="carousel-item white-text valign-wrapper" href="#Tools">
+          <div class="container">
+            <h3>Tools</h3>
+            <div class="row">
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/GitHub.png" alt="GitHub Logo" class="responsive-img">
+                <span class="tooltip-text">GitHub</span>
+              </div>
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/vsc.png" alt="VScode Logo" class="responsive-img">
+                <span class="tooltip-text">Vscode</span>
+              </div>
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/vs.png" alt="VStudio Logo" class="responsive-img">
+                <span class="tooltip-text">VStudio</span>
+              </div>
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/notepad++.png" alt="NotePad++ Logo" class="responsive-img">
+                <span class="tooltip-text">NotePad++</span>
+              </div>
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/Chrome.png" alt="Chrome Logo" class="responsive-img">
+                <span class="tooltip-text">Chrome</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="parallax">
+        <img src="./img/parallax/san-francisco-city-view.jpeg" alt="City view of San Francisco">
+      </div>
+    </div>
+  </section>
+
+  <!--Project Display Section-->
+  <section class="section grey lighten-5 section-project grey-text text-darken-2 scrollspy" id="project">
+    <div class="container">
+      <h3 class="center">Project</h3>
+      <h6 class="grey-text text-darken-1 center">
+        在 <span class="light-blue-text text-accent-4"><a
+            href="https://github.com/sky0966548546" target="_blank" id="github-repo-link">GitHub</a></span>
+        查看更多作品
+      </h6>
+      <div class="row">
+        <!--Projects be displayed here-->
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer class="page-footer grey lighten-1">
+    <div class="center">
+      <div class="container">
+        <div class="col s12">
+          <div id="footer-logo">
+            <img src="./img/logo/logo.png" alt="Logo">
+          </div>
+      </div>
+    </div>
+  </div>
+  </footer>
+  <div class="fixed-action-btn toolbar">
+    <a
+      class="blue-grey darken-1 hide-on-med-and-up waves-effect waves-light scale-transition scale-out">
+    </a>
+  </div>
+
+  <script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="./js/materialize.min.js"></script>
+  <script type="text/javascript" src="./js/materialize-init.js"></script>
+  <script type="text/javascript" src="./js/index.js"></script>
+</body>
+
+</html>
