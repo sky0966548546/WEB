@@ -2,7 +2,7 @@
   const projects = [
     {
       title: "HTML標籤小工具",
-      image: "./img/projects/htmltags.png",
+      image: "./img/projects/html_tags.webp",
       imageAlt: "HtmlTagTool",
       description:
         "剛開始學HTML時總是要記一大堆的語法，來設計自己的網頁，這個小工具能讓初學者不用記一大堆HTML的語法，進而減少製作網頁的時間。",
@@ -19,7 +19,7 @@
     },
     {
       title: "簡易網頁產生器",
-      image: "./img/projects/html.png",
+      image: "./img/projects/html.webp",
       imageAlt: "SimpleHTML",
       description:
         "如果不會網頁設計，但想要一個簡單又好看的個人網頁，這個程式只要輸入你喜歡的顏色，以及你想要呈現的資料，即可完成一個簡單的個人網頁。",
@@ -35,7 +35,7 @@
     },
     {
       title: "小破站漫畫下載器",
-      image: "./img/projects/manga2.png",
+      image: "./img/projects/manga.webp",
       imageAlt: "MangaDownload",
       description:
         "在網站上看到喜歡的漫畫，或是看到別人傳的車牌又不知道那是什麼，沒關係，這個程式可以幫助你，輸入號碼即可下載整本漫畫。",
@@ -52,21 +52,21 @@
   const blogPosts = [
     {
       name: "我的Github",
-      image: "./img/about-me/about-me-1.jpg",
+      image: "./img/about-me/about-me-1.webp",
     },
     {
       name: "兔子波卡",
-      image: './img/about-me/about-me-2.jpg"',
+      image: './img/about-me/about-me-2.webp"',
     },
     {
       name: "興趣-組模型",
       link: "https://bit.ly/2Oxf8ax",
-      image: "./img/about-me/about-me-3.jpg",
+      image: "./img/about-me/about-me-3.webp",
     },
     {
       name: "偶像-桐谷和人",
       link: "https://www.instagram.com/weii_0504/",
-      image: "./img/about-me/about-me-4.jpg",
+      image: "./img/about-me/about-me-4.webp",
     },
   ];
 

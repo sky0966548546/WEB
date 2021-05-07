@@ -7,4 +7,3 @@ function reset() {
       return false;
     }
   }
-  

@@ -80,10 +80,10 @@ nav {
   z-index: 3;
   width: 40px;
   height: 40px;
-  background-image: url("../img/icons/arrow-down-white.png");
+  background-image: url("../img/icons/arrow-down-white.webp");
   background-size: cover;
   background-position: center;
-  transform: translateX(-50%);
+  transform: translateX(-40%);
 }
 
 /*Side Nav*/
@@ -323,7 +323,7 @@ ul.sidenav .subheader {
 
 .section-project .card-reveal {
   padding-top: 13px;
-  background-image: url("../img/projects/sky.jpg");
+  background-color: #34495e;
   background-position: center;
   background-size: cover;
 }
