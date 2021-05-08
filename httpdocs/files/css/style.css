@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body{
+    font-family: 'Righteous','Noto Sans HK';
+    background-color: lightslategrey;
+}
+.left{
+    float:left;
+    width: 40%;
+}
+.right{
+    float:left;
+    width: 40%;
+    position: absolute;
+    left: 42%;
+}
+.code{
+    height: 600px;
+    width: auto;
+    background-color: rgba(255,255,255,.5);
+    border-radius:10px;
+}
+.code div{
+    margin-left:2em;
+    text-indent:-2em;
+}
