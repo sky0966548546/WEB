@@ -1,7 +1,7 @@
   function risu() {
       window.open("./Risu");
   }
-  
+
   function clock(){
       window.open("./clock");
   }
@@ -11,3 +11,6 @@
   function css(){
       window.open("./css");
   }
+  function htmltool(){
+    window.open("./htmltool");
+}
