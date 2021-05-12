@@ -66,7 +66,6 @@
             <td>
             <input type='button' value='送出' id="start"/>
             <input type='reset' value='重置' title='哈哈！後悔了吧！' />
-            <input type='button' value='顯示代碼' onclick="show()" />
             </td>
         </tr>
     </tbody>
@@ -80,7 +79,8 @@
 </div>
 <div class="right">
     代碼展示
-    <div class="code" ><div id="Code"></div></div>
+    <hr>
+    <div class="code" ><div id="Code" onclick="copy()" ></div></div>
 </div>
 </body>
 </html>

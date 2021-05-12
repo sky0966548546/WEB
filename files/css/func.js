@@ -21,10 +21,6 @@ $(document).ready(function(){
     code=Height+Width+Color+FontFamily+FontSize+BgColor+BgImage+BdStyle+BdRadius+BdColor;
     p="<p style='text-indent:-2em;'>}</p>";
     $("#show").html("<div style='"+code+"'>測試test</div>");
-    }
-    });
-});
-function show(){
     if($("#Height").prop("checked")){Height="<br>"+"height:"+$("#Heights").val()+";";}
     if($("#Width").prop("checked")){Width="<br>"+"width:"+$("#Widths").val()+";";}
     if($("#Color").prop("checked")){Color="<br>"+"color:"+$("#Colors").val()+";";}
@@ -37,4 +33,11 @@ function show(){
     if($("#BdColor").prop("checked")){BdColor="<br>"+"border-color:"+$("#BdColors").val()+";";}
     code=Class+Height+Width+Color+FontFamily+FontSize+BgColor+BgImage+BdStyle+BdRadius+BdColor+p;
     document.getElementById("Code").innerHTML=code;
+    }
+    });
+});
+function copy(){
+    var str = document.getElementById("Code");
+    window.getSelection().selectAllChildren(str);
+    document.execCommand('Copy')
 }

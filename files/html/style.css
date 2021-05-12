@@ -4,24 +4,6 @@ body{
     font-family: 'Righteous','Noto Sans HK';
     background-color: lightslategrey;
 }
-.left{
-    float:left;
-    width: 40%;
-}
-.right{
-    float:left;
-    width: 40%;
-    position: absolute;
-    left: 42%;
-}
-.code{
-    height: 600px;
-    width: auto;
-}
-.code div{
-    margin-left:2em;
-    text-indent:-2em;
-}
-input[type]{
+input[type="button"]{
     font-family: 'Righteous','Noto Sans HK';
 }
