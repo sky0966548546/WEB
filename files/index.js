@@ -5,12 +5,9 @@
   function clock(){
       window.open("./clock");
   }
-  function tags(){
-      window.open("./tags");
+  function WebEdit(){
+      window.open("./WebEdit");
   }
-  function css(){
-      window.open("./css");
-  }
-  function htmltool(){
-    window.open("./htmltool");
+  function WebEditPro(){
+    window.open("./WebEditPro");
 }
